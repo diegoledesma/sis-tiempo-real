@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+  </head>
+  <body>
+    <form class="" action="#" method="post">
+      <p>
+        <label for="nombre_usuario">Nombre de usuario</label>
+        <input id="nombre_usuario" name="nombre_usuario" type="text" maxlength="30" required>
+      </p>
+
+      <p>
+        <label for="fecha_nacimiento">Fecha de nacimiento</label>
+        <input id="fecha_nacimiento" name="fecha_nacimiento" type="date">
+      </p>
+
+      <p>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </p>
+
+      <p>
+        <label for="telefono">Tel&eacute;fono</label>
+        <input id="telefono" name="telefono" type="tel">
+      </p>
+
+      <p>
+        <label for="tipo_usuario">Tipo de usuario</label>
+        <select id="tipo_usuario" name="tipo_usuario">
+          <option value="0">Estudiante</option>
+          <option value="1">Docente</option>
+          <option value="2">Administrativo</option>
+          <option value="3">Auxiliar</option>
+          <option value="4">Director</option>
+        </select>
+      </p>
+
+      <p>
+        <label class="consulta" for="consulta">Consulta</label>
+        <textarea id="consulta" name="consulta" rows="8" cols="80" required></textarea>
+      </p>
+
+      <p>
+        <label for="tipo_consulta">Es urgente</label>
+        <input type="checkbox" id="tipo_consulta" name="tipo_consulta" value="1">
+      </p>
+
+      <input type="submit" id="boton_enviar" value="Enviar">
+      <input type="reset" value="Limpiar">
+    </form>
+    <script src="./js/lib/jquery-3.2.1.min.js"></script>
+    <script src="./js/contacto.js"></script>
+  </body>
+</html>
