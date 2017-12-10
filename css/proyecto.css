@@ -2,3 +2,7 @@ body {
     font-family: Tahoma;
     font-size:12px;
 }
+
+table img {
+    width: 50%;
+}
