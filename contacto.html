@@ -11,37 +11,27 @@
     <title>Formulario de contacto</title>
 </head>
 <body>
-    <div class="box_menu">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="proyecto.html">Proyecto</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a style="float:right;" class="resize_box">
-                <span>Cambiar tamaño</span>
-                <div class="resize_box-contenido">
-                    <input type="text" id="text_resize" class="input_resize"/>
-                    <button type="button" id="btn_resize" onClick="resize()">OK</button>
-                </div>
-            </a></li>
-            <li><a class="color_picker" style="float:right;">
-                <span>Cambiar color</span>
-                <div class="color_picker-contenido">
-                    <div style="display:inline-block" id="picker"></div>
-                    <div style="display:inline-block" id="slide"></div>
-                    <script type="text/javascript">
-						ColorPicker(
-							document.getElementById('slide'),
-							document.getElementById('picker'),
-							function(hex, hsv, rgb) {
-								document.body.style.backgroundColor = hex;
-							});
-                    </script>
-                </div>
-            </a>
-            </li>
-        </ul>
+    <div class="menu">
+        <div class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="proyecto.html">Proyecto</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="cambio-color">
+            <span>Cambio de color:</span>
+            <div class="paleta-colores">
+                <div class="caja-color transparente"></div>
+                <div class="caja-color rojo"></div>
+                <div class="caja-color azul"></div>
+            </div>
+        </div>
+        <div class="cambio-letra">
+            <span>Tamaño de letra:</span>
+            <input type="number">
+            <button>Aplicar</button>
+        </div>
+
     </div>
-    <div style="clear:both;"></div>
 
     <div class="box_formulario">
         <form class="form_contacto" action="#" method="post">

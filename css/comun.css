@@ -1,4 +1,46 @@
 
+.caja-color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.caja-color:hover{
+    cursor: pointer;
+}
+
+.caja-color.transparente {
+    background-color: white;
+}
+
+.caja-color.rojo {
+    background-color: red;
+}
+
+.caja-color.azul {
+    background-color: blue;
+}
+
+.paleta-colores {
+    display: inline-block;
+}
+
+.cambio-color {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navegacion {
+    display: inline-block;
+}
+
+.cambio-letra {
+    display: inline-block;
+}
+
+
 /* Menu */
 .box_menu {
     background-color: #333333;
