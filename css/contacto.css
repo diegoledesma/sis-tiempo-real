@@ -18,6 +18,10 @@ form .msj-error-validacion {
     display: none;
 }
 
+form div {
+    margin-top: 15px;
+}
+
 form .msj-enviado {
     color: green;
     display: none;
