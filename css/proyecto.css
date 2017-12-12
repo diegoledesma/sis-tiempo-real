@@ -6,3 +6,9 @@ body {
 table img {
     width: 50%;
 }
+
+video {
+    display: block;
+    height: 360px;
+    width: 640px;
+}
