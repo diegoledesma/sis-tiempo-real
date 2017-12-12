@@ -1,20 +1,24 @@
-body {
+body, input, textarea, select {
     font-family: Arial;
-    font-size:14px;
+    font-size: 14px;
 }
 
-.box_formulario{
+form {
+    margin-top: 40px;
     text-align: center;
 }
-.form_contacto {
-    margin-top:20px;
+
+form .botones-accion {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.form_contacto input {
-    border: 1px solid;
-    border-radius: 4px;
+form .msj-error-validacion {
+    color: red;
+    display: none;
 }
 
-.form_contacto .box_clear {
-    clear:both;
+form .msj-enviado {
+    color: green;
+    display: none;
 }

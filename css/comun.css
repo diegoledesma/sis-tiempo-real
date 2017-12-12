@@ -1,9 +1,9 @@
 
 .caja-color {
-    width: 20px;
-    height: 20px;
     border: 1px solid black;
     display: inline-block;
+    height: 20px;
+    width: 20px;
 }
 
 .caja-color:hover{
@@ -19,7 +19,7 @@
 }
 
 .caja-color.azul {
-    background-color: blue;
+    background-color: lightblue;
 }
 
 .paleta-colores, .navegacion, .cambio-letra {

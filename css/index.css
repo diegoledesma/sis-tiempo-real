@@ -1,11 +1,11 @@
 body {
     font-family: Tahoma;
-    font-size:12px;
+    font-size: 12px;
 }
 
 .index_sangria {
-    text-indent:20px;
+    text-indent: 20px;
 }
 .alineado_imagenes > img {
-    display:inline-block;
+    display: inline-block;
 }
