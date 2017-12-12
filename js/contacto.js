@@ -1,11 +1,13 @@
+'use strict';
+
 function validarFormulario() {
     var textoNombreUsuario = $('#nombre_usuario').val(),
         textoEmail = $('#email').val(),
         textoConsulta = $('#consulta').val();
-    
-    return  textoNombreUsuario &&
-            textoEmail &&
-            textoConsulta
+
+    return textoNombreUsuario &&
+        textoEmail &&
+        textoConsulta;
 }
 
 function enviarFormulario(event) {

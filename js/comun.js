@@ -1,3 +1,5 @@
+'use strict';
+
 function aplicarColor(nombreColor) {
     $('body').css({'background-color': nombreColor});
 }
