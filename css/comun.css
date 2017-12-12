@@ -35,3 +35,24 @@
 .cambio-letra input {
     width: 50px;
 }
+
+.seguir-facebook {
+    background-image: url('../img/facebook.png');
+    background-size: 27px 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #3a599b;
+    cursor: pointer;
+    height: 37px;
+    list-style: none;
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    width: 37px;
+}
+
+.seguir-facebook a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
