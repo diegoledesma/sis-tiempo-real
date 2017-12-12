@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/comun.css">
-    <script src="JS/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="JS/commons.js"></script>
-    <script type="text/javascript" src="JS/colorpicker.js"></script>
-    <script src="JS/contacto_validator.js"></script>
     <title>Formulario de contacto</title>
 </head>
 <body>
@@ -20,15 +16,15 @@
         <div class="cambio-color">
             <span>Cambio de color:</span>
             <div class="paleta-colores">
-                <div class="caja-color transparente"></div>
-                <div class="caja-color rojo"></div>
-                <div class="caja-color azul"></div>
+                <div onclick="aplicarColor('transparent')" class="caja-color transparente"></div>
+                <div onclick="aplicarColor('red')" class="caja-color rojo"></div>
+                <div onclick="aplicarColor('blue')" class="caja-color azul"></div>
             </div>
         </div>
         <div class="cambio-letra">
             <span>Tamaño de letra:</span>
             <input type="number">
-            <button>Aplicar</button>
+            <button onclick="aplicarTamanoFuente()">Aplicar</button>
         </div>
 
     </div>
@@ -80,5 +76,7 @@
             <input type="reset" value="Limpiar">
         </form>
     </div>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/comun.js"></script>
 </body>
 </html>
