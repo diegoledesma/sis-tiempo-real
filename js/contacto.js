@@ -21,6 +21,7 @@ function enviarFormulario(event) {
     if (!validarFormulario()) {
         $mensajeError.show();
         event.stopPropagation();
+        return;
     }
 
     $mensajeOk.show();
